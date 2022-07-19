@@ -1,0 +1,17 @@
+{
+  "name": "simple-amqp-client",
+  "version-string": "2.5.2",
+  "homepage": "https://github.com/QiangqiangZhou/SimpleAmqpClient",
+  "description": "SimpleAmqpClient is an easy-to-use C++ wrapper around the rabbitmq-c C library.",
+   "dependencies": [
+   "librabbitmq",
+    {
+      "name": "vcpkg-cmake",
+      "host": true
+    },
+	{
+      "name": "vcpkg-cmake-config",
+      "host": true
+    }
+  ]
+}
